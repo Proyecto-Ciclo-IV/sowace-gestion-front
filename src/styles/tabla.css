@@ -1,0 +1,27 @@
+.tabla {
+    width: 100%;
+    margin: 10px;
+    overflow-y: scroll;
+}
+
+.tabla td,
+.tabla th {
+    padding: 7px;
+    border: 1px solid #ddd;
+}
+
+.tabla th {
+    background-color: #831843;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla tr:hover {
+    background-color: #c5b6f2;
+}
